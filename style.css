@@ -1,0 +1,49 @@
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: aqua;
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	transition: all 1.5s ease;
+	z-index: 1;
+	transform: rotate(0deg);
+}
+
+.box-widht {
+	width: 820px;
+	transition: all 2s ease;
+}
+
+.box-right {
+	left: 750px;
+}
+
+.text {
+	color: blue;
+	font-family: monospace;
+	font-size: 36px;
+	position: absolute;
+	top: 20px;
+	left: 360px;
+	line-height: 28px;
+	opacity: 0;
+}
+
+.text-opacity {
+	opacity: 1;
+}
+
+
+.circle {
+	border-radius: 50%;
+	top: 70px;
+	left: 499px;
+	width: 20px;
+	height: 20px;
+	background-color: pink;
+	transform: rotate(-360deg);
+	transition: all 1s ease;
+
+}
+
